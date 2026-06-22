@@ -1,0 +1,76 @@
+Supply Chain Project Scripts :
+
+BRONZE LAYER 
+ 
+SELECT COUNT(*) 
+FROM workspace.default.supply_chain_500; 
+ 
+ 
+SILVER LAYER 
+ 
+CREATE OR REPLACE VIEW workspace.default.silver_supply_chain AS 
+
+SELECT * 
+
+FROM workspace.default.supply_chain_500; 
+ 
+ 
+GOLD LAYER 
+ 
+CREATE OR REPLACE VIEW workspace.default.gold_profit_analysis AS 
+
+SELECT 
+
+  Category Name, 
+
+  SUM(Benefit per order) AS Total_Profit, 
+
+  SUM(Sales per customer) AS Total_Sales 
+
+FROM workspace.default.silver_supply_chain 
+
+GROUP BY Category Name; 
+ 
+ 
+DASHBOARD KPI QUERY 
+ 
+SELECT COUNT(*) 
+FROM workspace.default.supply_chain_500; 
+ 
+ 
+TESTING QUERY 
+ 
+INSERT INTO workspace.default.supply_chain_500 
+SELECT * 
+FROM workspace.default.supply_chain_500 
+LIMIT 100; 
+ 
+ 
+VALIDATION QUERY 
+ 
+SELECT COUNT(*) 
+FROM workspace.default.supply_chain_500; 
+ 
+ 
+DASHBOARD REFRESH PROCESS 
+ 
+1. Run Bronze Layer 
+2. Run Silver Layer 
+3. Run Gold Layer 
+4. Refresh Dashboard 
+5. Publish Dashboard 
+ 
+ 
+EXPECTED RESULT 
+ 
+Before: Total Orders = 500 
+After: Total Orders = 800 
+ 
+Dashboard Updates: 
+- Total Orders 
+- Total Sales 
+- Total Profit 
+- Average Profit 
+- Bar Charts 
+- Pie Charts 
+ 

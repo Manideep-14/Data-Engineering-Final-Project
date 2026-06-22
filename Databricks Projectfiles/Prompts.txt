@@ -1,0 +1,25 @@
+AI ASSISTANCE / REFERENCE PROMPTS
+
+The following prompts were used for learning, clarification, and documentation support during project development:
+
+1. Explain the Medallion Architecture (Bronze, Silver, Gold) in Databricks.
+
+2. What are best practices for designing a supply chain analytics dashboard?
+
+3. How can profit analysis be performed using SQL aggregation functions?
+
+4. What visualizations are suitable for delivery performance analysis?
+
+5. How should key performance indicators (KPIs) be presented in a dashboard?
+
+6. What information should be included in a data engineering project report?
+
+7. How can PostgreSQL be integrated into a data analytics workflow?
+
+Purpose of AI Assistance:
+
+AI tools were utilized only for educational guidance, concept clarification, documentation support, and best-practice recommendations. All project implementation, data processing, dashboard development, testing, and result validation were performed independently by the student.
+
+Student Name: Manideep Thammaiahgari Chowdegowd
+
+Course: Data Engineering with Databricks

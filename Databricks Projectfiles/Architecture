@@ -1,0 +1,59 @@
+1. Databricks Project Architecture
+
+Raw Supply Chain Dataset
+          │
+          ▼
+    Bronze Layer
+ (Raw Data Ingestion)
+          │
+          ▼
+    Silver Layer
+(Data Cleaning &
+ Transformation)
+          │
+          ▼
+     Gold Layer
+(Business Metrics &
+ Aggregations)
+          │
+          ▼
+      SQL Analysis
+ ├─ Profit Analysis
+ └─ Delivery Analysis
+          │
+          ▼
+      Dashboard
+          │
+          ▼
+   Business Insights
+
+
+2.Snowflake + Power BI Project Architecture
+
+Raw Supply Chain Dataset
+          │
+          ▼
+      Snowflake
+(Data Loading &
+ Storage)
+          │
+          ▼
+ Data Transformation
+      using SQL
+          │
+          ▼
+ Analytical Tables /
+ Business Metrics
+          │
+          ▼
+      Power BI
+(Data Connection)
+          │
+          ▼
+ Dashboards & Reports
+ ├─ Profit Analysis
+ └─ Delivery Analysis
+          │
+          ▼
+   Business Insights
+   

@@ -1,0 +1,51 @@
+Supply Chain Performance Dashboard
+
+A Databricks dashboard was developed to monitor supply chain performance and provide actionable business insights. The dashboard combines key performance indicators, profitability analysis, delivery analysis, and customer behavior metrics.
+
+Key Performance Indicators (KPIs updated)
+
+* Total Orders: 800
+* Total Profit: 23,509
+* Total Sales: 181,907
+* Average Profit per Order: 29
+
+Dashboard Visualizations
+
+1. Category-wise Sales Performance
+
+Displays total sales across different product categories. This helps identify high-performing and low-performing categories.
+
+2. Profit by Category
+
+Shows average profit per order for each category. It helps determine which categories contribute the most to overall profitability.
+
+3. Delivery Status Distribution
+
+Visualizes the proportion of late deliveries, on-time deliveries, advance shipments, and canceled shipments. This helps evaluate delivery efficiency.
+
+4. Shipping Mode Analysis
+
+Compares order distribution across shipping modes such as Standard Class, Second Class, First Class, and Same Day delivery.
+
+5. Website Visits by Category
+
+Analyzes customer engagement and website traffic across product categories to understand customer interests and demand patterns.
+
+Business Insights
+
+* Category ID 4 generated the highest average profit.
+* Late deliveries accounted for the largest share of deliveries and require operational improvement.
+* Standard Class was the most frequently used shipping mode.
+* Certain product categories generated significantly higher sales and customer engagement.
+* Profitability analysis helps prioritize high-performing categories for future business growth.
+
+Tools Used
+
+* Databricks SQL
+* Delta Tables
+* SQL Queries
+* Databricks Dashboard
+
+Outcome
+
+The dashboard provides a centralized view of supply chain operations, enabling better decision-making through profit analysis, delivery monitoring, sales tracking, and customer behavior analysis.
