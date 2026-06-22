@@ -1,0 +1,121 @@
+SUPPLY CHAIN PERFORMANCE ANALYSIS USING DATABRICKS MEDALLION ARCHITECTURE 
+
+ 
+ 
+Student Name: Manideep Thammaiahgari Chowdegowd 
+Course: Data Engineering 
+ 
+PROJECT OVERVIEW 
+ 
+This project demonstrates the implementation of a Supply Chain Performance Analysis solution using Databricks and Medallion Architecture. The project focuses on ingesting, transforming, and analyzing supply chain data to generate business insights through interactive dashboards and KPIs. 
+ 
+PROJECT OBJECTIVES 
+ 
+Objective 1: Profit Analysis 
+- Analyze Total Profit 
+- Calculate Average Profit 
+- Monitor profit performance 
+ 
+Objective 2: Supply Chain Performance Analysis 
+- Analyze Total Orders 
+- Analyze Total Sales 
+- Monitor operational performance using visualizations 
+ 
+DATA SOURCES 
+ 
+Source 1: 
+- Supply Chain Dataset (CSV) 
+ 
+Source 2: 
+- Additional project dataset used in Databricks environment 
+ 
+ARCHITECTURE IMPLEMENTATION 
+ 
+Bronze Layer: 
+- Raw data ingestion 
+- Initial data loading 
+- Row count validation 
+ 
+Silver Layer: 
+- Data cleaning 
+- Data transformation 
+- Data quality checks 
+ 
+Gold Layer: 
+- Business aggregations 
+- KPI generation 
+- Dashboard-ready datasets 
+ 
+TOOLS USED 
+ 
+- Databricks 
+- SQL 
+- Delta Tables 
+- Databricks Dashboards 
+- Medallion Architecture 
+ 
+KEY PERFORMANCE INDICATORS 
+ 
+- Total Orders 
+- Total Sales 
+- Total Profit 
+- Average Profit 
+ 
+VISUALIZATIONS 
+ 
+- KPI Cards 
+- Bar Charts 
+- Pie Charts 
+- Executive Summary Dashboard 
+ 
+TESTING REQUIREMENT 
+ 
+Requirement: 
+“A new data to be added to one of data sources, consequently, the output objectives/dashboard should get updated automatically.” 
+ 
+Initial State: 
+- Total Orders = 500 
+ 
+Action Performed: 
+- Additional records were inserted into the source table. 
+ 
+Processing Steps: 
+1. Source data updated 
+2. Bronze Layer refreshed 
+3. Silver Layer refreshed 
+4. Gold Layer refreshed 
+5. Dashboard refreshed 
+ 
+Results 
+ 
+Before Update: 
+- Total Orders = 500 
+ 
+After Update: 
+- Total Orders = 800 
+ 
+Observed Dashboard Changes: 
+- Total Orders increased 
+- Total Sales increased 
+- Total Profit increased 
+- Average Profit changed 
+- Bar Charts updated 
+- Pie Charts updated 
+ 
+CONCLUSION 
+ 
+The project successfully implemented a complete Medallion Architecture pipeline using Databricks. Data was ingested, transformed, and visualized through bronze, silver, and gold layers. Testing confirmed that when new data was added to the source, all KPIs and dashboard visualizations were updated successfully. 
+ 
+SCREENSHOTS ATTACHED 
+ 
+1. Dashboard Before Update 
+2. Source Count Before Update 
+3. Bronze Layer 
+4. Silver Layer 
+5. Gold Layer 
+6. Source Count After Update 
+7. Dashboard After Update 
+8. KPI Changes 
+9. Bar Chart Changes 
+10. Pie Chart Changes 
+ 
