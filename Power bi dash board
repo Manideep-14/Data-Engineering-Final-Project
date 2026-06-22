@@ -1,0 +1,61 @@
+Dashboard Overview
+
+The Supply Chain Analytics Dashboard was developed using Power BI and connected directly to Snowflake to provide real-time business insights. The dashboard helps analyze product sales, delivery performance, shipping efficiency, and customer segmentation. Interactive filters allow users to explore data across different regions and categories, supporting data-driven decision-making.
+
+Dashboard Components
+
+1. Sales Analysis
+
+This visualization analyzes sales performance across different product categories and regions. It helps identify the most profitable product categories and understand regional sales trends.
+
+Key Insights:
+Compare sales across categories.
+Identify top-performing product groups.
+Analyze regional sales contribution.
+
+2. Shipping Mode Analysis
+
+This visualization compares sales and order distribution across different shipping methods such as Standard Class, First Class, Second Class, and Same Day delivery.
+
+Key Insights:
+Evaluate shipping method performance.
+Understand customer shipping preferences.
+Compare sales generated through each shipping mode.
+
+3. Delivery Performance Analysis
+
+This donut chart provides a summary of delivery statuses including Late Delivery, Advance Shipping, Shipping on Time, and Shipping Cancelled.
+
+Key Insights:
+Monitor delivery efficiency.
+Identify delayed shipments.
+Measure overall logistics performance.
+
+4. Customer Segment Analysis
+
+This treemap visualizes sales distribution among different customer segments such as Consumer, Corporate, and Home Office.
+
+Key Insights:
+Identify high-value customer segments.
+Understand customer purchasing behavior.
+Support customer-focused business strategies.
+
+5. Region Slicer
+
+The dashboard includes an interactive Order Region Slicer that allows users to filter all visualizations based on specific regions.
+
+Benefits:
+Dynamic dashboard filtering.
+Region-specific analysis.
+Improved user interaction and reporting flexibility.
+
+
+Business Value
+The dashboard enables organizations to:
+Monitor supply chain performance.
+Improve delivery operations.
+Identify profitable product categories.
+Analyze customer behavior.
+Support strategic business decisions through data-driven insights.
+
+The dashboard successfully integrates Snowflake and Power BI to transform raw supply chain data into meaningful business insights. By providing interactive visualizations and real-time analytics, the solution helps improve operational efficiency, customer satisfaction, and overall business performance.
